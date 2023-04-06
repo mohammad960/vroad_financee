@@ -1,0 +1,158 @@
+body{
+    height: 100vh;
+    background-color: #f3f3f3;
+}
+button{
+    background: #12171B;
+    border-radius: 13px;
+    color: white;
+    width: 20%;
+    text-align: center !important;
+    padding: 2px 12px;
+    font-family: Cairo;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.cancel {
+    background: red;
+    border-radius: 5px;
+    color: white;
+    width: 20%;
+    text-align: center !important;
+    padding: 2px 12px;
+    font-family: Cairo;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 70px;
+}
+header #top{
+    height: 56px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+    font-family: Cairo;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+header #top #first{
+    color: white;
+    font-family: Cairo;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+
+}
+header #top #last{
+    font-family: Cairo;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+}
+
+nav{
+    height: 40px;
+}
+#list{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.active-item{
+    color: black;
+    background: #f3f3f3;
+    border-radius: 10px 10px 0 0;
+}
+span.list-item {
+    display: grid;
+    place-content: center;
+    padding: 0 30px;
+    font-family: Cairo;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+}
+.list-container{
+    display: flex;
+    max-width: 80%;
+}
+#dialog-data{
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 18px;
+    width: 88%;
+    background-color: #ffffff;
+}
+#dialog-data #_1{
+    font-family: Cairo;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.main-container section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#normal-label{
+    font-family: Cairo;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+#attach{
+    font-family: Cairo;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #377CDB;
+}
+@media screen and (min-width: 900px) {
+    #dialog-data{
+        width: 60vw;
+    }
+}
+@media screen and (max-width: 900px) {
+    header #top #first{
+        opacity: 0;
+    }
+    span.list-item{
+        padding: 0 17px;
+        font-size: 19px;
+       
+    }
+    button{
+        width: 50%;
+        padding: 0px 2px;
+        margin: 0 0 20px 0;
+    }
+}

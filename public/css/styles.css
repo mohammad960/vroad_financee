@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  box-sizing: border-box;   
+}
+
+body{
+    background-image: url('../../img/login_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+#logo-container{
+    padding: 30px;
+    position: absolute;
+}
+
+#titles #first{
+    font-family: Cairo;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #12171B;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 100%;
+}
+#titles #second{
+    font-family: Cairo;
+    font-size: 17px;
+    width: 100%;
+    color: #12171B;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;    
+}
+#login-form button{
+    background-color: #12171B;
+    color: white;
+    width: 100%;
+    margin: 29px 0 11px;
+}
+#login-form{
+    display: grid;
+    place-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+#login-form form{
+    background: white;
+    width: 28vw;
+    padding: 5%;
+    border-radius: 12px;
+}
+label{
+    color: black;
+    font-weight: 500;
+}
+.form-control:focus{
+    border-color: black !important;
+    border: 2px solid;
+    border-radius: 8px;
+    box-shadow: none !important;
+}
+@media screen and (max-width: 1000px) {
+    #login-form form{
+        width: 80vw;
+    }
+    
+}

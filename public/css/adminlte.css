@@ -1,0 +1,35 @@
+          h2 {
+               color: black;
+               font-size: 30px;
+               
+          }
+		  .button-header{
+			  float:right;
+			  color:black;
+			  margin-top:-5%;
+			  background-color:white;
+			  
+		  }
+		  .export-button{
+			  visibility: hidden;
+			  
+		  }
+		  div.dt-buttons {
+			 float:right;
+			  
+		  }
+		 .sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+				background-color: #71DCFD;
+				color: #white;
+			}
+		.navbar-dark .navbar-nav .nav-link:hover {
+			  color: #71DCFD;
+			}
+			[class*=sidebar-dark-] {
+				background-color: black;
+				background: url(../../img/login_bg.png);
+			}
+			[class*=sidebar-dark] .brand-link {
+				border-bottom: 1px solid #71DCFD;
+				color: #71DCFD;
+			}
